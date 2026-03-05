@@ -1,5 +1,0 @@
-BLOCK(한줄단위)
-
-INLINE(글자단위)
-
-==> INLINE-BLOCK(글자+블럭)
