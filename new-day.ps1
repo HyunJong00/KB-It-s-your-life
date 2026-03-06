@@ -57,36 +57,21 @@ $tilContent = @'
 ## Day {0} - {1}
 
 ---
-## 한줄 요약
+## 목차
+
+## 목차 1
+
+## 목차 2
 
 
-## 오늘 배운 것
+## 정리
 
--
-
-## 핵심 개념
-
-| 개념 | 설명 |
-|------|------|
-|      |      |
-
-## 코드 예제
-
-```
-// 코드를 여기에 작성하세요
-```
-
-## 더 공부할 것
+### 더 공부할 것
 
 - [ ]
 
-## 참고 링크
+### 기억할 내용
 
--
-
-## 오늘 느낀 점
-
--
 '@ -f $dayNum, $today, $Title
 
 # Write UTF-8 with BOM for better compatibility on Windows PowerShell/editors.
