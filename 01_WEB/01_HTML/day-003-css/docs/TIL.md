@@ -1,4 +1,4 @@
-﻿# CSS
+# CSS
 
 ## Day 003 - 2026-03-06
 
@@ -6,52 +6,51 @@
 
 ## 목차
 
-1. 선택자
-2. CSS 단위
-3. CSS 속성
-4. 추가 학습
-5. 느낀점
+1. [선택자](#선택자)
+2. [CSS 단위](#css-단위)
+3. [CSS 속성](#css-속성)
+4. [추가 학습](#추가-학습)
+5. [정리](#정리)
 
-## 1. 선택자
+---
 
-#### 선택자 종류
+## 선택자
 
-<img src="img/image-1.png" width="30%" alt="선택자 종류1">
-<br>
-<img src="img/image.png" width="30%" alt="선택자 종류2">
+### 선택자 종류
 
-#### 예제 코드
+<div>
+  <img src="img/image-1.png" width="40%" alt="선택자 종류1">
+  <img src="img/image.png" width="40%" alt="선택자 종류2">
+</div>
 
-- CSS 기본 구조
-- 순서대로: 다중 선택, 전체 선택, 클래스 선택, 속성 선택, 후손 선택, 자식 선택자
+### 예제 코드
 
-```HTML
+CSS 기본 구조 — 순서대로: 다중 선택, 전체 선택, 클래스 선택, 속성 선택, 후손 선택, 자식 선택자
+
+```html
 <style>
-    h1, p, #id { color: red; }                          /* 다중 선택자 */
-    * {
-        background: black;
-        margin: 0;
-    }                                                    /* 전체 선택자 */
-    li.select { font-size: 10px; }                      /* 클래스 선택자 */
-    input[type="text"] { border: 1px solid #000; }      /* 속성 선택자 */
-    #header h1 { text-shadow: 5px 5px 5px black; }      /* 후손 선택자 */
-    header > p { margin: 3px; }                         /* 자식 선택자 */
-    h1:hover { color: green; }                          /* 반응 선택자(hover) */
-    h1:active { color: blue; }                          /* 반응 선택자(active) */
-    input:focus { color: orange; }                      /* 상태 선택자 */
-    input:disabled { color: gray; }                     /* 상태 선택자 */
-    li:nth-child(2n) { background-color: #ff0033; }     /* 구조 선택자 */
+  h1, p, #id { color: red; }                          /* 다중 선택자 */
+  * {
+    background: black;
+    margin: 0;
+  }                                                   /* 전체 선택자 */
+  li.select { font-size: 10px; }                      /* 클래스 선택자 */
+  input[type="text"] { border: 1px solid #000; }      /* 속성 선택자 */
+  #header h1 { text-shadow: 5px 5px 5px black; }      /* 후손 선택자 */
+  header > p { margin: 3px; }                         /* 자식 선택자 */
+  h1:hover { color: green; }                          /* 반응 선택자 (hover) */
+  h1:active { color: blue; }                          /* 반응 선택자 (active) */
+  input:focus { color: orange; }                      /* 상태 선택자 */
+  input:disabled { color: gray; }                     /* 상태 선택자 */
+  li:nth-child(2n) { background-color: #ff0033; }     /* 구조 선택자 */
 </style>
 ```
 
-```css
-/* 자식 선택자(>) - 직계 자식만 */
-div > p {
-}
+자식 선택자(`>`)와 후손 선택자(공백)의 차이:
 
-/* 후손 선택자(공백) - 모든 하위 요소 */
-div p {
-}
+```css
+div > p { }   /* 직계 자식만 */
+div p { }     /* 모든 하위 요소 */
 ```
 
 ```text
@@ -61,65 +60,68 @@ div
     └── p  ← 자식 ❌ 후손 ✅
 ```
 
-## 2. CSS 단위
+---
 
-#### 크기 단위
+## CSS 단위
+
+### 크기 단위
 
 <img src="img/image-2.png" width="20%" alt="크기단위">
 
 > [!TIP]
 > `rem`: 루트(root) 글자 크기 기준 비율. 최근 많이 사용됨.
 
-## 3. CSS 속성
+---
 
-#### 박스 속성
+## CSS 속성
+
+### 박스 속성
 
 <img src="img/image-3.png" alt="박스속성" width="40%">
 
 > [!NOTE]
-> margin이 겹치는 경우(마진 상쇄), 합이 아니라 더 큰 값이 적용됨.
+> 마진 상쇄: margin이 겹치는 경우 합이 아니라 **더 큰 값**이 적용됨.
 
-#### 가시 속성
+### 가시 속성
 
-<img src="img/image-4.png" alt="가시속성">
+<img src="img/image-4.png" alt="가시속성" width="40%">
 
-| block          | inline           | inline-block   |
-| -------------- | ---------------- | -------------- |
-| 한 줄 차지     | 내용 크기만큼    | 내용 크기만큼  |
-| 크기 지정 가능 | 크기 지정 불가능 | 크기 지정 가능 |
-| div            | span             | img            |
+| | `block` | `inline` | `inline-block` |
+|---|---|---|---|
+| **줄 차지** | 한 줄 전체 | 내용 크기만큼 | 내용 크기만큼 |
+| **크기 지정** | ✅ 가능 | ❌ 불가 | ✅ 가능 |
+| **대표 태그** | `div` | `span` | `img` |
 
-#### 배경 속성
+### 배경 속성
 
-<img src="img/image-5.png" alt="배경속성" width="30%">
+<img src="img/image-5.png" alt="배경속성" width="40%">
 
-#### 위치 속성
+### 위치 속성
 
-<img src="img/image-6.png" alt="위치속성" width="30%">
+<img src="img/image-6.png" alt="위치속성" width="40%">
 
-#### 예제 코드
+### 예제 코드
 
-```html
-<style>
-  div {
-    margin: 10px;
-    padding: 0 30px 0 30px; /* 순서: 상 우 하 좌 */
-    margin-left: 30px;
-    border-width: thick;
-    background-image: url('img1.png'), url('img2.png');
-  }
+```css
+div {
+  margin: 10px;
+  padding: 0 30px 0 30px;   /* 상 우 하 좌 */
+  margin-left: 30px;
+  border-width: thick;
+  background-image: url('img1.png'), url('img2.png');
+}
 
-  .text {
-    font-family:
-      '없는 글꼴', 'Georgia', 'Arial', sans-serif; /* 순서대로 적용 */
-    text-align: center; /* inline 요소 자체 정렬은 불가(부모 기준 정렬) */
-  }
-</style>
+.text {
+  font-family: '없는 글꼴', 'Georgia', 'Arial', sans-serif;   /* 순서대로 적용 */
+  text-align: center;   /* inline 요소 자체 정렬 불가 — 부모 기준 정렬 */
+}
 ```
 
-### 추가 학습
+---
 
-#### DOM
+## 추가 학습
+
+### DOM
 
 DOM = Document Object Model
 
@@ -138,25 +140,31 @@ document
 
 - `document`가 루트(root)
 
-#### Bit / Byte
+### Bit / Byte
 
-- 8 bit = 1 Byte
-- 1,000 Byte = 1 KB
-- 1,000,000 Byte = 1 MB
-- 1,000,000,000 Byte = 1 GB
-- 1,000,000,000,000 Byte = 1 TB
+| 단위 | 크기 |
+|---|---|
+| 1 Byte | 8 bit |
+| 1 KB | 1,000 Byte |
+| 1 MB | 1,000,000 Byte |
+| 1 GB | 1,000,000,000 Byte |
+| 1 TB | 1,000,000,000,000 Byte |
 
-#### 색상 표기
+### 색상 표기
 
-- 16진수: `0x00` ~ `0xFF`
-- RGB: `#RRGGBB` (예: `#FF0003`)
-- RGBA: `rgba(255, 0, 3, 0.5)` 또는 `#RRGGBBAA`
+| 방식 | 예시 |
+|---|---|
+| 16진수 | `0x00` ~ `0xFF` |
+| RGB | `#RRGGBB` (예: `#FF0003`) |
+| RGBA | `rgba(255, 0, 3, 0.5)` 또는 `#RRGGBBAA` |
+
+---
 
 ## 정리
 
 ### 더 공부할 것
 
-- [ ] image 여러 개 적용해보기(레이어 확인)
+- [ ] image 여러 개 적용해보기 (레이어 확인)
 - [x] 자식과 후손 비교해보기
 - [ ] CSS Position
 
@@ -170,6 +178,7 @@ document
 
 > [!WARNING]
 > [float 관련 에러 코드](../chapter5/ect_structure.html)
+>
 > <img src="img/image-8.png" alt="문제">
 > <img src="img/image-7.png" alt="해결">
 >
