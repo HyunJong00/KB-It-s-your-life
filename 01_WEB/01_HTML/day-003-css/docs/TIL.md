@@ -8,7 +8,7 @@
 
 1. [선택자](#선택자)
 2. [CSS 단위](#css-단위)
-3. [CSS 속성](#css-속성)
+3. [CSS 속성 1](#css-속성-1)
 4. [추가 학습](#추가-학습)
 5. [정리](#정리)
 
@@ -27,30 +27,31 @@
 
 CSS 기본 구조 — 순서대로: 다중 선택, 전체 선택, 클래스 선택, 속성 선택, 후손 선택, 자식 선택자
 
-```html
+```HTML
 <style>
-  h1, p, #id { color: red; }                          /* 다중 선택자 */
-  * {
-    background: black;
-    margin: 0;
-  }                                                   /* 전체 선택자 */
-  li.select { font-size: 10px; }                      /* 클래스 선택자 */
-  input[type="text"] { border: 1px solid #000; }      /* 속성 선택자 */
-  #header h1 { text-shadow: 5px 5px 5px black; }      /* 후손 선택자 */
-  header > p { margin: 3px; }                         /* 자식 선택자 */
-  h1:hover { color: green; }                          /* 반응 선택자 (hover) */
-  h1:active { color: blue; }                          /* 반응 선택자 (active) */
-  input:focus { color: orange; }                      /* 상태 선택자 */
-  input:disabled { color: gray; }                     /* 상태 선택자 */
-  li:nth-child(2n) { background-color: #ff0033; }     /* 구조 선택자 */
+  h1,
+  p,
+  #id {color: red;}
+  * {background: black;margin: 0;}                /* 전체 선택자 */
+  li.select { font-size: 10px;}                   /* 클래스 선택자 */
+  input[type='text'] { border: 1px solid #000;} /* 속성 선택자 */
+  #header h1 {text-shadow: 5px 5px 5px black;}    /* 후손 선택자 */
+  header > p {margin: 3px;}                       /* 자식 선택자 */
+  h1:hover {color: green;}                        /* 반응 선택자 (hover) */
+  h1:active {color: blue;}                        /* 반응 선택자 (active) */
+  input:focus {color: orange;}                    /* 상태 선택자 */
+  input:disabled {color: gray;}                   /* 상태 선택자 */
+  li:nth-child(2n) {background-color: #ff0033;} /* 구조 선택자 */
 </style>
 ```
 
 자식 선택자(`>`)와 후손 선택자(공백)의 차이:
 
 ```css
-div > p { }   /* 직계 자식만 */
-div p { }     /* 모든 하위 요소 */
+div > p {
+} /* 직계 자식만 */
+div p {
+} /* 모든 하위 요소 */
 ```
 
 ```text
@@ -73,7 +74,7 @@ div
 
 ---
 
-## CSS 속성
+## CSS 속성 1
 
 ### 박스 속성
 
@@ -86,11 +87,11 @@ div
 
 <img src="img/image-4.png" alt="가시속성" width="40%">
 
-| | `block` | `inline` | `inline-block` |
-|---|---|---|---|
-| **줄 차지** | 한 줄 전체 | 내용 크기만큼 | 내용 크기만큼 |
-| **크기 지정** | ✅ 가능 | ❌ 불가 | ✅ 가능 |
-| **대표 태그** | `div` | `span` | `img` |
+|               | `block`    | `inline`      | `inline-block` |
+| ------------- | ---------- | ------------- | -------------- |
+| **줄 차지**   | 한 줄 전체 | 내용 크기만큼 | 내용 크기만큼  |
+| **크기 지정** | ✅ 가능    | ❌ 불가       | ✅ 가능        |
+| **대표 태그** | `div`      | `span`        | `img`          |
 
 ### 배경 속성
 
@@ -105,15 +106,15 @@ div
 ```css
 div {
   margin: 10px;
-  padding: 0 30px 0 30px;   /* 상 우 하 좌 */
+  padding: 0 30px 0 30px; /* 상 우 하 좌 */
   margin-left: 30px;
   border-width: thick;
   background-image: url('img1.png'), url('img2.png');
 }
 
 .text {
-  font-family: '없는 글꼴', 'Georgia', 'Arial', sans-serif;   /* 순서대로 적용 */
-  text-align: center;   /* inline 요소 자체 정렬 불가 — 부모 기준 정렬 */
+  font-family: '없는 글꼴', 'Georgia', 'Arial', sans-serif; /* 순서대로 적용 */
+  text-align: center; /* inline 요소 자체 정렬 불가 — 부모 기준 정렬 */
 }
 ```
 
@@ -142,21 +143,21 @@ document
 
 ### Bit / Byte
 
-| 단위 | 크기 |
-|---|---|
-| 1 Byte | 8 bit |
-| 1 KB | 1,000 Byte |
-| 1 MB | 1,000,000 Byte |
-| 1 GB | 1,000,000,000 Byte |
-| 1 TB | 1,000,000,000,000 Byte |
+| 단위   | 크기                   |
+| ------ | ---------------------- |
+| 1 Byte | 8 bit                  |
+| 1 KB   | 1,000 Byte             |
+| 1 MB   | 1,000,000 Byte         |
+| 1 GB   | 1,000,000,000 Byte     |
+| 1 TB   | 1,000,000,000,000 Byte |
 
 ### 색상 표기
 
-| 방식 | 예시 |
-|---|---|
-| 16진수 | `0x00` ~ `0xFF` |
-| RGB | `#RRGGBB` (예: `#FF0003`) |
-| RGBA | `rgba(255, 0, 3, 0.5)` 또는 `#RRGGBBAA` |
+| 방식   | 예시                                    |
+| ------ | --------------------------------------- |
+| 16진수 | `0x00` ~ `0xFF`                         |
+| RGB    | `#RRGGBB` (예: `#FF0003`)               |
+| RGBA   | `rgba(255, 0, 3, 0.5)` 또는 `#RRGGBBAA` |
 
 ---
 
@@ -182,7 +183,7 @@ document
 > <img src="img/image-8.png" alt="문제">
 > <img src="img/image-7.png" alt="해결">
 >
-> float은 원래 텍스트가 이미지를 감싸도록 만든 속성이라 문서 흐름에서 빠져나올 수 있음.  
+> `float`은 원래 텍스트가 이미지를 감싸도록 만든 속성이라 문서 흐름에서 빠져나올 수 있음.  
 > 따라서 부모가 자식 높이를 인식하지 못해 높이가 0이 되거나 overflow 문제가 발생할 수 있음.  
 > **해결 방법:** `overflow: hidden;` 또는 `display: flow-root;`, `display: flex;` 사용.  
 > `overflow: hidden;` 사용 시 BFC(Block Formatting Context)가 생성되어 레이아웃이 분리됨.
