@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+  <head>
+    <script>
+      let isDay = true;
+      let hours = new Date().getHours();
+      if (hours > 12) {
+        isDay = false;
+      }
+      alert(isDay ? '오전입니다' : '오후입니다');
+    </script>
+  </head>
+</html>
