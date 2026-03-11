@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <script>
+      const arr = [10, 20, 30, 40, 50, 60];
+      const result1 = arr.filter((item) => item >= 30);
+
+      const result2 = arr.filter((item, index) => item !== 40);
+      const data = [
+        { id: 1, name: '홍길동', age: 26 },
+        { id: 2, name: '어피치', age: 20 },
+        { id: 3, name: '프로도', age: 35 },
+      ];
+      const data2 = data.filter((item) => item.name == '홍길동');
+      data.splice(1, 1, 12); // 원본을 편집
+      console.log(result1);
+      console.log(result2);
+      console.log(data2);
+      console.log(data);
+    </script>
+  </head>
+</html>

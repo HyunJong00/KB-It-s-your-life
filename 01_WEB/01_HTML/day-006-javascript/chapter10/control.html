@@ -1,0 +1,30 @@
+<!-- <!doctype html>
+<html>
+  <head>
+    <script>
+      window.onload = () => {
+        let text = '';
+        for (let i = 0; i < 10; i++) {
+          text += '<h1>Header - ' + i + '</h1>';
+        }
+        document.body.textContent = text;
+      };
+    </script>
+  </head>
+  <body></body>
+</html> -->
+<!doctype html>
+<html>
+  <head>
+    <script>
+      window.onload = () => {
+        let text = '';
+        for (let i = 0; i < 10; i++) {
+          text += '<h1>Header - ' + i + '</h1>';
+        }
+        document.body.innerHTML = text; // 태그를 파싱함
+      };
+    </script>
+  </head>
+  <body></body>
+</html>

@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <script>
+      //var 는 전역(window 내 1개)
+      //let 은 지역
+      //const는 지역 + 재할당 안됨
+      var a = 100;
+      a = 250;
+      console.log(a); //250
+      {
+        var a = 200;
+        console.log(a); //200
+        {
+          var a = 300;
+          console.log(a); //200
+        }
+        console.log(a);
+      }
+    </script>
+  </head>
+</html>
