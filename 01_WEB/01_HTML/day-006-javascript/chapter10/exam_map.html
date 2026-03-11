@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <script>
+      const arr = [10, 20, 30];
+      arr.map((item, index) => {
+        return console.log(index, item);
+      });
+      arr.map((item, index) => console.log(index, item));
+
+      const data = [
+        { id: 1, name: '홍길동', age: 26 },
+        { id: 2, name: '어피치', age: 20 },
+        { id: 3, name: '프로도', age: 35 },
+      ];
+      data.map((item, index) => console.log(item.id, item.name, item.age));
+    </script>
+  </head>
+</html>

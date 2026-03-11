@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head> </head>
+  <body>
+    <script>
+      function make1() {
+        console.log('make1');
+      }
+      const make11 = () => console.log('make11');
+      function make2(num) {
+        console.log(`(make2) \nnum = ${num}`);
+      }
+      const make21 = (num) => {
+        console.log(`(make21) \nnum=${num}`);
+      };
+      make1();
+      make11();
+      make2(10);
+      make21(11);
+    </script>
+  </body>
+</html>

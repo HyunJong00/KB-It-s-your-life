@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <script>
+      window.onload = () => {
+        let button = document.querySelector('#btn');
+        let userNameTag = document.querySelector('#name');
+        button.onclick = () => {
+          let name = userNameTag.value;
+          alert(name);
+        };
+      };
+    </script>
+  </head>
+  <body>
+    <form>
+      <label for="name">이름:</label>
+      <input id="name" name="name" type="text" size="30" />
+      <input id="btn" type="button" value="전송" />
+    </form>
+  </body>
+</html>

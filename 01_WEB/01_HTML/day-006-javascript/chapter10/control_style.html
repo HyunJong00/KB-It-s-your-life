@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <script>
+      window.onload = () => {
+        // window.onload 없어도 되지 않나..?
+        let output = '';
+        for (let i = 0; i < 256; i++) {
+          output += '<div>  </div>';
+        }
+        document.body.innerHTML = output;
+        let divs = document.querySelectorAll('div');
+        for (let i = 0; i < 256; i++) {
+          let div = divs[i];
+          div.style.height = '2px';
+
+          div.style.backgroundColor =
+            'rgb(' + (256 - i) + ',' + (256 - i) + ',' + (256 - i) + ')';
+        }
+      };
+    </script>
+  </head>
+  <body></body>
+</html>
