@@ -41,6 +41,11 @@ if ([string]::IsNullOrWhiteSpace($suffix)) {
 
 $dayFolder = "day-{0:D3}-$suffix" -f $nextDay
 $today = Get-Date -Format "yyyy-MM-dd"
+
+# Resolve $Subject to an absolute path so .NET methods use the correct base.
+if (-not [System.IO.Path]::IsPathRooted($Subject)) {
+    $Subject = Join-Path (Get-Location).Path $Subject
+}
 $fullPath = Join-Path -Path $Subject -ChildPath $dayFolder
 
 if (Test-Path $fullPath) {
