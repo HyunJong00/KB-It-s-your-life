@@ -91,3 +91,6 @@ Write-Host "   TIL.md" -ForegroundColor Cyan
 Write-Host ""
 Write-Host "   code $tilPath" -ForegroundColor Yellow
 Write-Host ""
+
+
+#.\new-day.ps1 -Subject ".\01_WEB\03_Vue" -Title "Vue"     
