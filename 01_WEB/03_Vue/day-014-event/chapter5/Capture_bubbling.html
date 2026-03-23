@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      <div @click.capture="onParentCapture" @click="onParent">
+        <button @click="onChild">클릭</button>
+
+        <!-- 부모로 이벤트 전달 안 됨 -->
+        <!-- <button @click.stop="onChild">클릭</button> -->
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/vue"></script>
+    <script>
+      let vm = Vue.createApp({
+        name: 'App',
+        data() {
+          return {};
+        },
+        methods: {
+          onParentCapture() {
+            alert('onParentCapture (캡처링: 내려오는 중)');
+          },
+          onChild() {
+            alert('onChild (타겟: 버튼 클릭)');
+          },
+          onParent() {
+            alert('onParent (버블링: 올라가는 중)');
+          },
+        },
+      }).mount('#app');
+    </script>
+  </body>
+</html>
