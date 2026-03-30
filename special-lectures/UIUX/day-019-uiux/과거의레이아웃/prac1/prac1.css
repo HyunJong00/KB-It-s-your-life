@@ -1,0 +1,44 @@
+.round {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: aqua;
+  display: flex;
+}
+.container {
+  border: 2px solid black;
+  position: relative;
+  width: 700px;
+  height: 400px;
+}
+
+.one {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: red;
+}
+.two {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: green;
+}
+.two {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: green;
+}
+.three {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: blue;
+}
+.four {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: yellow;
+}
