@@ -1,0 +1,22 @@
+.box {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+.green {
+  background-color: green;
+  left: 50px;
+  top: 50px;
+}
+.blue {
+  background-color: blue;
+  left: 100px;
+  top: 100px;
+}
+.red {
+  top: 0;
+  background-color: red;
+}
+body {
+  border: 1px solid black;
+}

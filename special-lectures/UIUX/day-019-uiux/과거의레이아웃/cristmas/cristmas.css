@@ -1,0 +1,37 @@
+div {
+  position: relative;
+  border: 1px solid red;
+}
+.E {
+  position: absolute;
+  top: 20px;
+  left: 130px;
+}
+.M {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+}
+.R1 {
+  position: absolute;
+  top: 140px;
+  left: 120px;
+}
+.R2 {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+.Y {
+  position: absolute;
+  top: 230px;
+  left: 40px;
+}
+span {
+  background-color: yellow;
+  padding: 2px;
+  font-weight: bold;
+}
+.image {
+  height: 300px;
+}
