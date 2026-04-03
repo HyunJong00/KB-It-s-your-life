@@ -71,6 +71,7 @@ db.json
     console.log('# 응답객체: ', response)
 })`
 - 직렬화 과정 필요 없음
+  ![axios 함수](image-4.png)
 
 #### axios.response 객체
 
