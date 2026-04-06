@@ -1,0 +1,8 @@
+{
+  "product": [
+    { "name": "새우깡", "price": 3500, "quntity": 1 },
+    { "name": "감자깡", "price": 1500, "quntity": 1 },
+    { "name": "포카칩", "price": 2500, "quntity": 10 },
+    { "name": "오감자", "price": 1500, "quntity": 3 }
+  ]
+}
