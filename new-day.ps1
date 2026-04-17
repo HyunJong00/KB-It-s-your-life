@@ -9,11 +9,11 @@
 
 $rootPath = if ($PSScriptRoot) { $PSScriptRoot } else { (Get-Location).Path }
 
-# Find all day-XXX folders under root, then use max + 1.
+# Find all day-XXX/day_XXX folders under root, then use max + 1.
 $dayNumbers = @(
-    Get-ChildItem -Path $rootPath -Directory -Recurse -Filter "day-*" -ErrorAction SilentlyContinue |
+    Get-ChildItem -Path $rootPath -Directory -Recurse -ErrorAction SilentlyContinue |
     ForEach-Object {
-        if ($_.Name -match '^day-(\d{1,})($|-)') {
+        if ($_.Name -match '^day[-_](\d{1,})($|[-_])') {
             [int]$matches[1]
         }
     }
@@ -31,15 +31,15 @@ if ([string]::IsNullOrWhiteSpace($Title)) {
 
 # Build folder-safe suffix from title.
 $suffix = $Title.Trim().ToLower()
-$suffix = $suffix -replace '\s+', '-'
+$suffix = $suffix -replace '\s+', '_'
 $suffix = $suffix -replace '[\\/:*?"<>|]', ''
-$suffix = $suffix -replace '-{2,}', '-'
-$suffix = $suffix.Trim('-', '.')
+$suffix = $suffix -replace '_{2,}', '_'
+$suffix = $suffix.Trim('_', '.')
 if ([string]::IsNullOrWhiteSpace($suffix)) {
     $suffix = "untitled"
 }
 
-$dayFolder = "day-{0:D3}-$suffix" -f $nextDay
+$dayFolder = "day_{0:D3}_$suffix" -f $nextDay
 $today = Get-Date -Format "yyyy-MM-dd"
 
 # Resolve $Subject to an absolute path so .NET methods use the correct base.
@@ -53,6 +53,7 @@ if (Test-Path $fullPath) {
 }
 
 New-Item -ItemType Directory -Force -Path (Join-Path $fullPath "docs") | Out-Null
+New-Item -ItemType Directory -Force -Path (Join-Path $fullPath "src") | Out-Null
 
 $dayNum = "{0:D3}" -f $nextDay
 $tilPath = Join-Path -Path $fullPath -ChildPath "docs\TIL.md"
@@ -87,6 +88,7 @@ Write-Host ""
 Write-Host "Done." -ForegroundColor Green
 Write-Host "   $fullPath\" -ForegroundColor Cyan
 Write-Host "   docs\" -ForegroundColor Cyan
+Write-Host "   src\" -ForegroundColor Cyan
 Write-Host "   TIL.md" -ForegroundColor Cyan
 Write-Host ""
 Write-Host "   code $tilPath" -ForegroundColor Yellow
