@@ -1,0 +1,62 @@
+문제 1] 라우터 테이블을 완성하세요.
+    { path: '/memo', component: MemoListPage },
+    { path: '/memo/view/:id', name: 'memo/id', component: MemoDetailPage },
+    { path: '/memo/write', component: MemoWritePage },
+
+문제 2] src/pages/MemoListPage.vue 컴포넌트를 완성하세요.
+2 -1] 반응형 데이터 memos를 정의하세요.
+    const memos = ref('');
+
+2 -2] load() 함수를 완성하세요.
+    response = await axios.get(BASE);
+    memos.value = response.data;
+
+
+문제 3] src/components/MemoList.vue 컴포넌트를 완성하세요.
+3-1] 스크립트에서 memos 프로퍼티를 정의하세요.
+    const props = defineProps(['memos']);
+
+3-2] 다음 화면과 같이 템플릿에서 MemoItem을 메모 수만큼 렌더링되도록 작성하세요.
+    <MemoItem v-for="memo in memos" :key="memo.id" :memo="memo" />
+
+
+문제 4] src/pages/MemoDetailPage.vue 메모 상세 보기 페이지의 스크립트 코드를 완성하세요.
+4-1] router를 설정하세요.
+    const router = useRouter();
+
+4-2] currentRoute를  설정하세요.
+    const currentRoute = useRoute();
+
+4-3] 쿼리 파라미터에서 id 추출하여 id를 설정하세요.
+    const id = currentRoute.params.id;
+
+4-4] 반응형 데이터 memo 정의하세요.
+    const memo = ref('');
+
+4-5] 데이터 로드 함수를 완성하세요.
+    const response = await axios.get(`${BASE}/${id}`);
+    memo.value = response.data;
+
+4-6] 돌아가기 버튼 이벤트 핸들러 함수를 정의하세요.
+    const back = () => {
+        router.go(-1);
+    };
+
+문제 5] src/pages/MemoWritePage.vue 메모 등록 코드를 완성하시오.
+5-1] router를 설정하세요.
+    const router = useRouter();
+
+5-2] reactive로 반응형 데이터 memo를 정의하세요.
+    const memo = reactive({ title: '', content: '' });
+
+5-3] submit 이벤트 핸들러 함수를 완성하세요.
+    await axios.post(BASE, { title: memo.title, content: memo.content });
+    back();
+
+5-4] 돌아가기 버튼 이벤트 핸들러 함수를 정의하세요.
+    const back = () => {
+        router.go(-1);
+    };
+
+5-5] 템플릿에서 submit 이벤트 핸들러를 등록하세요.
+    <input type="submit" value="확인" @click.prevent="submit" />
