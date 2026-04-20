@@ -42,7 +42,7 @@ const back = () => {
       <textarea rows="5" style="width: 100%" v-model="memo.content"></textarea>
     </div>
     <input type="submit" value="확인" @click.prevent="submit" />
-    <button @click="back">돌아가기</button>
+    <button @click.prevent="back">돌아가기</button>
   </form>
 </template>
 
