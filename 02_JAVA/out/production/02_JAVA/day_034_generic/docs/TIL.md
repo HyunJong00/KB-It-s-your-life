@@ -89,6 +89,20 @@ Iterator<E> iterator = set.iterator();
 - `clear()`, `remove(Object key)`
 #### HashMap
 `Map<String, Integer> map = new HashMap<>();`
+#### Properties
+- 일종의 map(키, 값)
+- key, value 모두 String으로 타입 고정
+- 설정 정보, 코드와 무관한 정보 (하드코딩 안하는 내용)
+- .properties로 작성해, `load`로 읽어와 사용
+
+  .```properties
+#띄어쓰기도 인식 하므로 띄어쓰기 없이 저장해야 함
+driver=oracle.jdbc.Oracledirver
+url=jdbc...
+username=scott..
+```
+
+
 
 |               | 장점                  | 단점          | 삽입/삭제    | 검색       |
 |---------------|---------------------|-------------|----------|----------|
@@ -107,8 +121,17 @@ Iterator<E> iterator = set.iterator();
 - forEach + 람다 가능
   - `map.foreach((k,v) -> sout(k,v));`
 
+## 추가 학습
+### 테스트 데이터 
+- `List<String> list = List.of("test1","test2","test3");`
+- add 사용하지 않고 리스트 생성 가능
+- read only 리스트
+### 생성 관례
+- `List<String> list = new ArrayList<String>();`
+- `List<String> list = new ArrayList<>();`: 생성 타입 생략(자동 추론), 권장
+
 ## 정리
-- List.of("test1","test2","test3");
+
 ### 더 공부할 것
 
 - [ ]
