@@ -1,0 +1,35 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.scoula'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // 기본 lombok
+    compileOnly 'org.projectlombok:lombok:1.18.30'
+    //세팅->어노테이션프로세서 활성화
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+    //테스트
+    testCompileOnly 'org.projectlombok:lombok:1.18.30'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+    // opencsv
+    implementation 'com.opencsv:opencsv:5.9'
+
+    testImplementation platform('org.junit:junit-bom:6.0.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+test {
+    useJUnitPlatform()
+}

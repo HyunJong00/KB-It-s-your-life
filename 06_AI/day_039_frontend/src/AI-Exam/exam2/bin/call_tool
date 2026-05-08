@@ -1,0 +1,16 @@
+#!/bin/bash
+FUNC_NAME="$1"
+shift
+case "$FUNC_NAME" in
+    echo)
+        # Read parameters from stdin
+        read INPUT_JSON
+        # Extract text using jq
+        TEXT=$(echo "$INPUT_JSON" | jq r '.text')
+        # Output result as JSON
+        echo "{\"result\": \"$TEXT"}"
+        ;;
+    *)
+        echo "{
+"{\"error\": \"Unknown function: $FUNC_NAME\"}"
+esac

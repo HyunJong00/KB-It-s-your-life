@@ -1,0 +1,6 @@
+{
+  "tools": {
+    "toolDiscoveryCommand ": " get_tools",
+    "toolCallCommand ": "call_tool"
+  }
+}
