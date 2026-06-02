@@ -6,6 +6,7 @@ import org.scoula.travel.domain.TravelVO;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.util.List;
 
 public class TravelDaoImpl implements TravelDao {
     Connection conn = JDBCUtil.getConnection();
@@ -36,5 +37,25 @@ public class TravelDaoImpl implements TravelDao {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    @Override
+    public int getTotalCount() {
+        return 0;
+    }
+
+    @Override
+    public List<String> geDistricts() {
+        return List.of();
+    }
+
+    @Override
+    public List<TravelVO> getTravels() {
+        return List.of();
+    }
+
+    @Override
+    public List<TravelVO> getTravels(int page) {
+        return List.of();
     }
 }
