@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7100b602-b4a6-4822-a6ab-9d04887c675b" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/../chapter01_anno/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter01_anno/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter01_anno/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter01_anno/src/main/java/com/study/sample01/MessageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter01_anno/src/main/java/com/study/sample01/MessageBeanImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter01_anno/src/main/java/com/study/sample01/SpringMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter01_anno/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter01_xml/src/main/java/com/study/sample01/MessageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter01_xml/src/main/java/com/study/sample01/MessageBeanImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter01_xml/src/main/java/com/study/sample01/SpringMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter01_xml/src/main/java/com/study/sample02/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter01_xml/src/main/java/com/study/sample02/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter01_xml/src/main/java/com/study/sample02/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter01_xml/src/main/java/com/study/sample02/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter01_xml/src/main/java/com/study/sample02/CalcAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter01_xml/src/main/java/com/study/sample02/CalcMul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter01_xml/src/main/java/com/study/sample02/SpringMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter01_xml/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter02_anno/src/main/java/com/study/sample01/MessageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter02_anno/src/main/java/com/study/sample01/MessageBeanImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter02_anno/src/main/java/com/study/sample01/SpringMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter02_anno/src/main/java/com/study/sample02/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter02_anno/src/main/java/com/study/sample02/CalcAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter02_anno/src/main/java/com/study/sample02/CalcMul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter02_anno/src/main/java/com/study/sample02/SpringMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter02_anno/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/sample01/MessageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/sample01/MessageBeanImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/sample01/SpringMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/sample02/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/sample02/CalcAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/sample02/CalcMul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/sample02/SpringMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../01_WEB/03_Vue/PJT/AccountBook" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../01_WEB/03_Vue/PJT/AccountBook" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../01_WEB/03_Vue/PJT/Skeleton_project" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../01_WEB/03_Vue/PJT/Skeleton_project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../04_server/day_063_frontcontroller/src/ex6/src/main/java/org/scoula/ex6/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../04_server/day_063_frontcontroller/src/ex6/src/main/java/org/scoula/ex6/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../04_server/day_063_frontcontroller/src/ex6/src/main/java/org/scoula/ex6/FrontControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../04_server/day_063_frontcontroller/src/ex6/src/main/java/org/scoula/ex6/FrontControllerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../04_server/day_063_frontcontroller/src/ex6/src/main/java/org/scoula/ex6/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../04_server/day_063_frontcontroller/src/ex6/src/main/java/org/scoula/ex6/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../04_server/day_063_frontcontroller/src/ex6/src/main/java/org/scoula/ex6/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../04_server/day_063_frontcontroller/src/ex6/src/main/java/org/scoula/ex6/TodoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../04_server/day_063_frontcontroller/src/ex6/src/main/webapp/WEB-INF/views/404.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../04_server/day_063_frontcontroller/src/ex6/src/main/webapp/WEB-INF/views/404.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../04_server/day_063_frontcontroller/src/ex6/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../04_server/day_063_frontcontroller/src/ex6/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../day_064_bean/src/chapter01/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../day_064_bean/src/chapter01/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/docs/TIL.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app/GEMINI.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app/src/components/DiaryForm.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app/src/components/DiaryList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app/src/stores/DiaryStore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app2/GEMINI.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app2/db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app2/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app2/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app2/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app2/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app2/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app2/src/api/diaryApi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app2/src/components/TheHeader.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app2/src/components/diary/DiaryCalendar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app2/src/components/diary/DiaryCalendarLegend.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app2/src/components/diary/DiaryListHeader.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app2/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app2/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app2/src/stores/diaryStore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app2/src/views/DiaryDetail.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app2/src/views/DiaryEdit.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app2/src/views/DiaryList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app2/src/views/DiaryWrite.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-app2/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-data-set/GEMINI.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-data-set/db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-data-set/product_review.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-data-set/starwars_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/diary-data-set/user_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/exam1/.gemini/setting.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/exam1/GEMINI.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/exam1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/exam1/src/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/exam1/src/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/exam2/.gemini/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/exam2/bin/call_tool" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_039_frontend/src/AI-Exam/exam2/bin/get_tools" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/.idea/day_040_backend.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/docs/TIL.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/AI_Exam2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/AI_Exam2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/AI_Exam2/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/AI_Exam2/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/AI_Exam2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/AI_Exam2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/AI_Exam2/GEMINI.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/AI_Exam2/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/AI_Exam2/class_diagram.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/AI_Exam2/cli_class_diagram.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/AI_Exam2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/AI_Exam2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/AI_Exam2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/AI_Exam2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/AI_Exam2/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/AI_Exam2/src/main/java/org/scoula/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/AI_Exam2/src/main/java/org/scoula/cli/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/AI_Exam2/src/main/java/org/scoula/cli/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/AI_Exam2/src/main/java/org/scoula/ex01/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/AI_Exam2/src/main/java/org/scoula/travel/dao/TravelDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/AI_Exam2/src/main/java/org/scoula/travel/domain/Travel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/AI_Exam2/src/main/java/org/scoula/travel/service/TravelService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/AI_Exam2/src/main/resources/travel.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/AI_Exam2/src/test/java/org/scoula/travel/dao/TravelDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/java-db/src/main/java/com/study/calculator/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/java-db/src/main/java/com/study/calculator/Calculator2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/java-db/src/main/java/com/study/validator/PasswordValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/java-db/src/test/java/com/study/calculator/Calculator2Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/java-db/src/test/java/com/study/calculator/CalculatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../06_AI/day_040_backend/src/java-db/src/test/java/com/study/validator/PasswordValidatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_050_dbms_basic/docs/TIL.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_051_sql/docs/03 SQL 기본(기본).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_051_sql/docs/03 SQL 기본(기본)_정답.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_051_sql/docs/03 SQL 기본(심화).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_051_sql/docs/03 SQL 기본(심화)_정답.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_051_sql/docs/TIL.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_052_join/docs/04 SQL 고급(기본).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_052_join/docs/04 SQL 고급(심화).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_052_join/docs/TIL.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_052_join/src/23회차_5주차과제_이현종.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_053_view/docs/05 테이블, 뷰(기본).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_053_view/docs/05 테이블, 뷰(기본)_정답.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_053_view/docs/05 테이블, 뷰(심화).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_053_view/docs/05 테이블, 뷰(심화)_정답.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_053_view/docs/06 인덱스, 사용자 관리(기본).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_053_view/docs/06 인덱스, 사용자 관리(기본)_정답.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_053_view/docs/06 인덱스, 사용자 관리(심화).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_053_view/docs/06 인덱스, 사용자 관리(심화)_정답.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_053_view/docs/TIL.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/docs/07 Java 연동 JDBC 프로그래밍(기본)_정답.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/docs/07 Java 연동 JDBC 프로그래밍(심화)_정답.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/docs/08 Java 연동 JDBC 프로그래밍-Travel(기본).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/docs/08 Java 연동 JDBC 프로그래밍-Travel(심화).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/docs/TIL.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/docs/image-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/docs/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/java-db/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/java-db/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/java-db/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/java-db/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/java-db/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/java-db/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/java-db/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/java-db/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/java-db/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/java-db/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/java-db/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/java-db/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/java-db/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/java-db/src/main/java/com/study/calculator/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/java-db/src/main/java/com/study/calculator/Calculator2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/java-db/src/main/java/com/study/validator/PasswordValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/java-db/src/test/java/com/study/calculator/Calculator2Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/java-db/src/test/java/com/study/calculator/CalculatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/java-db/src/test/java/com/study/jdbc/ConnectionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/java-db/src/test/java/com/study/validator/PasswordValidatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/jdbc_ex/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/jdbc_ex/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/jdbc_ex/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/jdbc_ex/.idea/data_source_mapping.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/jdbc_ex/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/jdbc_ex/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/jdbc_ex/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/jdbc_ex/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/jdbc_ex/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/jdbc_ex/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/jdbc_ex/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/jdbc_ex/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/jdbc_ex/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/jdbc_ex/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/jdbc_ex/jdbc_ex.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/jdbc_ex/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/jdbc_ex/src/main/java/org/scoula/jdbc_ex/common/JDBCUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/jdbc_ex/src/main/java/org/scoula/jdbc_ex/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/jdbc_ex/src/main/java/org/scoula/jdbc_ex/dao/UserDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/jdbc_ex/src/main/java/org/scoula/jdbc_ex/domain/UserVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/jdbc_ex/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/jdbc_ex/src/test/java/org/scoula/jdbc_ex/common/JDBCUtilTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/jdbc_ex/src/test/java/org/scoula/jdbc_ex/test/ConnectionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_054_jdbc/src/jdbc_ex/src/test/java/org/scoula/jdbc_ex/test/CrudTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/docs/08 Java 연동 JDBC 프로그래밍-Travel(기본).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/docs/08 Java 연동 JDBC 프로그래밍-Travel(기본)_정답.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/docs/08 Java 연동 JDBC 프로그래밍-Travel(심화).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/docs/08 Java 연동 JDBC 프로그래밍-Travel(심화)_정답.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/docs/TIL.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/src/travelapp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/src/travelapp/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/src/travelapp/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/src/travelapp/.idea/data_source_mapping.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/src/travelapp/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/src/travelapp/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/src/travelapp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/src/travelapp/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/src/travelapp/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/src/travelapp/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/src/travelapp/database.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/src/travelapp/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/src/travelapp/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/src/travelapp/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/src/travelapp/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/src/travelapp/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/src/travelapp/src/main/java/org/scoula/travel/dao/JDBCUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/src/travelapp/src/main/java/org/scoula/travel/dao/TravelDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/src/travelapp/src/main/java/org/scoula/travel/dao/TravelDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/src/travelapp/src/main/java/org/scoula/travel/dataimport/ImportImageData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/src/travelapp/src/main/java/org/scoula/travel/dataimport/ImportTravelData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/src/travelapp/src/main/java/org/scoula/travel/domain/TravelImageVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/src/travelapp/src/main/java/org/scoula/travel/domain/TravelVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/src/travelapp/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/src/travelapp/src/test/java/org/scoula/CSVTest1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/src/travelapp/src/test/java/org/scoula/CSVTest2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_055_dao/src/travelapp/src/test/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_056_mybatis/docs/09 MyBatis 프로그래밍(기본).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_056_mybatis/docs/09 MyBatis 프로그래밍(심화).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_056_mybatis/docs/TIL.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_056_mybatis/docs/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_056_mybatis/docs/mybatis_flow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_056_mybatis/src/mybatis-ex/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_056_mybatis/src/mybatis-ex/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_056_mybatis/src/mybatis-ex/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_056_mybatis/src/mybatis-ex/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_056_mybatis/src/mybatis-ex/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_056_mybatis/src/mybatis-ex/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_056_mybatis/src/mybatis-ex/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_056_mybatis/src/mybatis-ex/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_056_mybatis/src/mybatis-ex/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_056_mybatis/src/mybatis-ex/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_056_mybatis/src/mybatis-ex/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_056_mybatis/src/mybatis-ex/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_056_mybatis/src/mybatis-ex/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_056_mybatis/src/mybatis-ex/src/main/java/org/scoula/database/MyBatisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_056_mybatis/src/mybatis-ex/src/main/java/org/scoula/database/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_056_mybatis/src/mybatis-ex/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_056_mybatis/src/mybatis-ex/src/main/resources/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_057_mongodb/docs/01 MongoDB(기본).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_057_mongodb/docs/01 MongoDB(심화).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_057_mongodb/docs/TIL.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../07_MySQL/day_057_mongodb/src/23회차_6주차과제_이현종.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/05 디자인패턴/00 객체지향 설계원칙-SOLID.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/05 디자인패턴/01 Iterator - 처리를 반복하다.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/05 디자인패턴/02 Adapter - 사이에 끼워 재사용한다.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/05 디자인패턴/03 Template Method - 하위 클래스에서 구체적으로 처리한다.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/05 디자인패턴/04 Factory Method - 하위 클래스에서 인스턴스를 만든다.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/05 디자인패턴/05 Singleton - 인스턴스를 단 하나만 만든다.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/05 디자인패턴/06 Prototype - 복사해서 인스턴스를 만든다.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/05 디자인패턴/07 Builder - 복잡한 인스턴스를 조립한다.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/05 디자인패턴/08 Bridge - 기능 계층과 구현 계층을 나눈다.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/05 디자인패턴/09 Facade - 단순한 창구를 만든다.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/05 디자인패턴/10 Command - 명령을 클래스로 표현한다 - 예제는 cli로.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/05 디자인패턴/11 Strategy - 알고리즘을 모두 바꾼다.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/05 디자인패턴/12 Composite - 그릇과 내용물을 동일시한다.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/05 디자인패턴/13 Visitor - 데이터 구조를 돌아다니면서 처리한다.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/05 디자인패턴/14 Proxy - 필요해지면 만든다.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/05 디자인패턴/15 Observer - 상태 변화를 알려 준다.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/05 디자인패턴/16 Decorator - 장식틀과 내용물을 동일시한다.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/05 디자인패턴/17 Chain of Responsibility - 책임을 떠넘긴다.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/06 AI 활용/1-1. 바이브 코딩과 페어 프로그래밍, Gemini CLI.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/06 AI 활용/1-2. AI를 이용한 Vue 컴포넌트 개발.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/06 AI 활용/1-3. AI를 이용한 테스트 데이터 대량 생성.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/06 AI 활용/1-4. Diary 앱 Json-server 연동 및 수정.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/06 AI 활용/2-1. 디자인 패턴을 적용한 간단한 Cli 프로그램 개발.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/06 AI 활용/2-2. 데이터베이스 구축을 위한 시나리오 작성.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/06 AI 활용/JUnit5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/06 AI 활용/Mermaid 스크립트.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/06 AI 활용/travel.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/07 MySQL/01 DBMS 개요.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/07 MySQL/02.1 MySQL 설치.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/07 MySQL/02.2 테스트 데이터베이스.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/07 MySQL/03 MySQL 전체 운영 실습.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/07 MySQL/04 데이터베이스 모델링.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/07 MySQL/05 MySQL 유틸리티 사용법.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/07 MySQL/06 SQL 기본.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/07 MySQL/07.1 SQL 고급 - 데이터타입, 내장함수.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/07 MySQL/07.2 SQL 고급 - 조인.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/07 MySQL/08.1 테이블.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/07 MySQL/08.2 뷰, 테이블스페이스.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/07 MySQL/09 인덱스, 사용자 관리.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/07 MySQL/10 JDBC 프로그래밍.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/07 MySQL/11 JDBC 프로그래밍 - Travel.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/07 MySQL/JUnit5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/07 MySQL/MongoDB/01 최신 웹을 위한 도큐먼트 데이터베이스.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/07 MySQL/MongoDB/01.2 MongoDB 설치.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/07 MySQL/MongoDB/02 자바스크립트 셸을 통한 MongoDB.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/07 MySQL/MongoDB/03 쿼리 작성하기.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/07 MySQL/MongoDB/04 MongoDB Java 연동.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/07 MySQL/MongoDB/05 MongoDB Java POJO 연동.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/07 MySQL/MyBatis 프로그래밍.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/07 MySQL/travel.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lecture-materials/07 MySQL/트랜잭션.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../special-lectures/git/day_033_git/practice" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../special-lectures/git/day_033_git/practice" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="chapter02_xml" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "HyunJong00"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/HyunJong00/KB-It-s-your-life.git",
+    "accountId": "5b815bdc-6f7a-43c8-b5f3-a97ff245bd74"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3FD3IevQzquF9mNgRd5FpH6URHX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.chapter02_xml [:com.study.sample01.SpringMain.main()].executor": "Run",
+    "Gradle.chapter02_xml [:com.study.sample02.SpringMain.main()].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/fullsatsck/05_Spring/day_065_spring_mvc/src/chapter02_xml/src/main/java/com/study",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\fullsatsck\05_Spring\day_065_spring_mvc\src\chapter02_xml\src\main\java\com\study\" />
+      <recent name="C:\fullsatsck\05_Spring\day_065_spring_mvc\src\chapter02_xml\src\main\java\com\study" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="7100b602-b4a6-4822-a6ab-9d04887c675b" name="변경" comment="" />
+      <created>1781595736431</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1781595736431</updated>
+      <workItem from="1781595739563" duration="4101000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
