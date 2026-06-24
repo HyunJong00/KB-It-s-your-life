@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7a9aefc0-3422-4481-91a5-ca9a6e106ca3" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Chapter03/src/main/java/com/study/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter03/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter03/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter03/src/main/webapp/WEB-INF/view/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter04_xml/src/main/java/com/study/SpringMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter04_xml/src/main/java/com/study/bean/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter04_xml/src/main/java/com/study/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter04_xml/src/main/java/com/study/dao/UserDAOMyBatis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter04_xml/src/main/java/com/study/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter04_xml/src/main/java/com/study/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter04_xml/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter04_xml/src/main/resources/mapper/userMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter04_xml/src/main/resources/spring/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter04_xml/src/main/resources/spring/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter04_xml/src/main/resources/sql/usertable.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chapter03_1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chapter03_1/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chapter03_1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chapter03_1/src/main/java/com/study/bean/SumDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chapter03_1/src/main/java/com/study/controller/SumController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chapter03_1/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chapter03_1/src/main/webapp/WEB-INF/sum/input.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chapter03_1/src/main/webapp/WEB-INF/sum/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chapter03_1/src/main/webapp/WEB-INF/sum/result2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_065_spring_mvc/src/chapter02_anno/src/main/java/spring/config/SpringConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_066_database/src/ex4/src/main/java/org/scoula/mapper/TimeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_066_database/src/ex4/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_066_database/src/ex4/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_066_database/src/ex4/src/main/resources/org/scoula/mapper/log4jdbc.log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_066_database/src/ex4/src/test/java/org/scoula/config/RootConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_066_database/src/ex4/src/test/java/org/scoula/mapper/TimeMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_066_database/src/ex4/src/test/java/org/scoula/persistence/JDBCTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_066_database/src/ex4/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_066_database/src/ex4/src/test/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_067_crud/src/board/src/main/java/org/scoula/board/dto/BoardDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_067_crud/src/board/src/main/java/org/scoula/board/mapper/BoardMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_067_crud/src/board/src/main/java/org/scoula/board/service/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_067_crud/src/board/src/main/java/org/scoula/board/service/BoardServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_067_crud/src/board/src/main/resources/org/scoula/board/mapper/BoardMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_067_crud/src/board/src/test/java/org/scoula/board/mapper/BoardMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_067_crud/src/board/src/test/java/org/scoula/board/service/BoardServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_070_rest_controller/src/board/src/main/java/org/scoula/comm/util/UploadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_070_rest_controller/src/board/src/main/java/org/scoula/comm/util/UploadFileName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_070_rest_controller/src/board/src/main/java/org/scoula/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../legacy/src/main/java/org/scoula/exeception/CommonExceptionAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../legacy/src/main/webapp/WEB-INF/views/custom404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../legacy/src/main/webapp/WEB-INF/views/error_page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../01_WEB/03_Vue/PJT/AccountBook" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../01_WEB/03_Vue/PJT/MoneyDefenseJGS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../01_WEB/03_Vue/PJT/Skeleton_project" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01_WEB/03_Vue/PJT/Skeleton_project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_065_spring_mvc/src/chapter02_anno/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day_065_spring_mvc/src/chapter02_anno/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_065_spring_mvc/src/chapter02_anno/src/main/java/com/study/sample02/CalcAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day_065_spring_mvc/src/chapter02_anno/src/main/java/com/study/sample02/CalcAdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_065_spring_mvc/src/chapter02_anno/src/main/java/com/study/sample02/CalcMul.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day_065_spring_mvc/src/chapter02_anno/src/main/java/com/study/sample02/CalcMul.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_065_spring_mvc/src/chapter02_anno/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day_065_spring_mvc/src/chapter02_anno/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_065_spring_mvc/src/chapter02_xml/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day_065_spring_mvc/src/chapter02_xml/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_065_spring_mvc/src/chapter02_xml/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day_065_spring_mvc/src/chapter02_xml/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../special-lectures/git/day_033_git/practice" beforeDir="false" afterPath="$PROJECT_DIR$/../../../special-lectures/git/day_033_git/practice" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SpringLegacy" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="23qukznh5v0wd">
+      <file current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/scoula/exeception/CommonExceptionAdvice.java" file-id="265615" managing-fs="1776753600522">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="514">
+              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab>{&quot;tabTitle&quot;:&quot;CommonExceptionAdvice.java&quot;,&quot;foregroundColor&quot;:-9192071,&quot;textAttributes&quot;:{&quot;name&quot;:&quot;a&quot;,&quot;children&quot;:[{&quot;name&quot;:&quot;option&quot;,&quot;attributes&quot;:{&quot;name&quot;:&quot;FOREGROUND&quot;,&quot;value&quot;:&quot;73bd79&quot;}}]},&quot;icon&quot;:[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,62,10,15,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,18,21,101,120,112,117,105,47,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-63,-37,-81,-57,4,48,0]}</tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error_page.jsp" file-id="265616" managing-fs="1776753600522">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="459">
+              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+        <tab>{&quot;tabTitle&quot;:&quot;error_page.jsp&quot;,&quot;foregroundColor&quot;:-9192071,&quot;textAttributes&quot;:{&quot;name&quot;:&quot;a&quot;,&quot;children&quot;:[{&quot;name&quot;:&quot;option&quot;,&quot;attributes&quot;:{&quot;name&quot;:&quot;FOREGROUND&quot;,&quot;value&quot;:&quot;73bd79&quot;}}]},&quot;icon&quot;:[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,71,10,17,102,105,108,101,84,121,112,101,115,47,106,115,112,46,115,118,103,18,23,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,106,115,112,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-68,-2,-46,-100,-2,-1,-1,-1,-1,1,48,0]}</tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/custom404.jsp" file-id="265617" managing-fs="1776753600522">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="486">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+        <tab>{&quot;tabTitle&quot;:&quot;custom404.jsp&quot;,&quot;foregroundColor&quot;:-9192071,&quot;textAttributes&quot;:{&quot;name&quot;:&quot;a&quot;,&quot;children&quot;:[{&quot;name&quot;:&quot;option&quot;,&quot;attributes&quot;:{&quot;name&quot;:&quot;FOREGROUND&quot;,&quot;value&quot;:&quot;73bd79&quot;}}]},&quot;icon&quot;:[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,71,10,17,102,105,108,101,84,121,112,101,115,47,106,115,112,46,115,118,103,18,23,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,106,115,112,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-68,-2,-46,-100,-2,-1,-1,-1,-1,1,48,0]}</tab>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "HyunJong00"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/HyunJong00/KB-It-s-your-life.git",
+    "accountId": "5b815bdc-6f7a-43c8-b5f3-a97ff245bd74"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3FYwATT6nHN2yKlIEzsUQK9ovDY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.SampleServiceTest.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.scoula.sample.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.scoula.sample.service" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="7a9aefc0-3422-4481-91a5-ca9a6e106ca3" name="변경" comment="" />
+      <created>1782265168441</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782265168441</updated>
+      <workItem from="1782265169636" duration="5373000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
