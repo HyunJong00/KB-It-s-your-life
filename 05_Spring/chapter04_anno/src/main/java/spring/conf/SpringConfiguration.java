@@ -52,13 +52,13 @@ public class SpringConfiguration {
     }
     @Bean
     public SqlSessionFactory sqlSessionFactory() throws Exception {
-        SqlSessionFactoryBean sqlSessionFactoryBean = new SqlSessionFactoryBean();
-        sqlSessionFactoryBean.setDataSource(dataSource());
-        sqlSessionFactoryBean.setConfigLocation(new ClassPathResource("spring/mybatis-config.xml"));
-        sqlSessionFactoryBean.setMapperLocations(new ClassPathResource[]{
+        SqlSessionFactoryBean sqlSessionFactory = new SqlSessionFactoryBean();
+        sqlSessionFactory.setDataSource(dataSource());
+        sqlSessionFactory.setConfigLocation(new ClassPathResource("spring/mybatis-config.xml"));
+        sqlSessionFactory.setMapperLocations(new ClassPathResource[]{
                 new ClassPathResource("mapper/userMapper.xml")});
 
-        return sqlSessionFactoryBean.getObject(); // sqlSessionFactoryBean.getObject()는 SqlSessionFactory 반환
+        return sqlSessionFactory.getObject(); // sqlSessionFactoryBean.getObject()는 SqlSessionFactory 반환
     }
 
     @Bean

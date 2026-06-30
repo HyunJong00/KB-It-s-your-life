@@ -46,6 +46,18 @@ JAVA ENTERPRISE APPLICATIN 개발에 사용되는 자바 플랫폼을 위한 오
     }
 ```
 
+### 빈 주입 방법
+
+1. `@Bean`으로 생성한 경우
+   - 메서드명 = 빈 이름
+   - 1. setter 직접 주입 `setParrot(parrot())`- bean 등록한 메서드로 주입
+   - 2. setter 매개변수를 통한 주입 - `Person person(Parrot parrot)` `setParrot(parrot)` - 메서드로 주입
+
+2. `@Component`로 생성한 경우 (`@ComponentScan` 필요)
+   - 1. `@Autowired` 이용한 필드 주입 - 필드 위에 어노테이션, final 사용 불가
+   - 2. `@Autowired` 이용한 생성자 주입 - 생성자 위에 어노테이션, final 사용 가능하며 권장
+   - 3. `@Autowired` 이용한 setter 주입 - setter 위에 어노테이션
+
 ## 정리
 
 [1] 컨테이너 생성
